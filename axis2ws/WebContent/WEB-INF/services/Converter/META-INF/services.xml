@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- This file was auto-generated from WSDL --><!-- by the Apache Axis2 version: 1.7.6  Built on : Jul 30, 2017 (09:08:31 BST) --><serviceGroup>
+    <service name="Converter">
+        <messageReceivers>
+        <messageReceiver mep="http://www.w3.org/ns/wsdl/in-only" class="org.apache.axis2.rpc.receivers.RPCInOnlyMessageReceiver" />
+        <messageReceiver  mep="http://www.w3.org/ns/wsdl/in-out"  class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+    </messageReceivers>
+        <parameter name="ServiceClass">axis2ws.Converter</parameter>
+        <parameter name="useOriginalwsdl">true</parameter>
+        <parameter name="modifyUserWSDLPortAddress">true</parameter>
+        <operation name="celsiusTofarenheit" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://axis2ws">
+            <actionMapping>urn:celsiusTofarenheit</actionMapping>
+            <outputActionMapping>urn:celsiusTofarenheitResponse</outputActionMapping>
+        </operation>
+        <operation name="farenheitTocelsius" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://axis2ws">
+            <actionMapping>urn:farenheitTocelsius</actionMapping>
+            <outputActionMapping>urn:farenheitTocelsiusResponse</outputActionMapping>
+        </operation>
+    </service>
+</serviceGroup>
